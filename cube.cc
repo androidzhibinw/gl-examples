@@ -4,7 +4,7 @@
 // A simple OpenGL program that draws a colorful cube
 // that rotates as you move the arrow keys!
 //
-// g++ cube.cc -lm -lglut -lGL -lGLU -o cube
+// g++ cube.cc  -lglut -lGL  -o cube
 
 #define GL_GLEXT_PROTOTYPES
 #ifdef __APPLE__

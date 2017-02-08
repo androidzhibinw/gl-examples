@@ -4,7 +4,7 @@
 // A simple OpenGL program that draws a triangle
 // and automatically rotates it.
 //
-// g++ rotateCube.cc -lm -lglut -lGL -lGLU -o rotateCube
+// g++ rotateCube.cc  -lglut -lGL -lGLU -o rotateCube
 
 #include <iostream>
 #include <stdlib.h>
