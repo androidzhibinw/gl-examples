@@ -1,29 +1,21 @@
 
-//g++ t002.cc -lGL -lglut -lGLEW -o t002
+//g++ 2.1.cc -lGL -lglut -lGLEW -o 2.1
 
 #include <stdio.h>
-#include <unistd.h>
-#include <math.h>
 #include <GL/glew.h>
 #include <GL/freeglut.h>
 
-int i=0;
 static void GLRender()
 {
-    i++; 
-    if (i >100) i=0;
-    float g=i/10.0f;
-    GLfloat red [] = {sin(g),cos(g),0.0f,1.0f};
+    static const GLfloat red [] = {1.0f,0.0f,0.0f,1.0f};
     glClearBufferfv(GL_COLOR, 0, red);
+
 }
 
 static void Render()
 {
     GLRender();
-    glFlush();
     glutSwapBuffers();
-    sleep(1);
-    glutPostRedisplay();
 }
 
 static void InitializeGlutCallbacks()
