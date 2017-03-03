@@ -1,5 +1,5 @@
 
-//g++ t001.cc -lGL -lglut -lGLEW -o t001
+//g++ glfw-example.cc -lGL -lglfw -lGLEW -o glfw-example
 
 #include <stdio.h>
 #include <unistd.h>
