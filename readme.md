@@ -11,10 +11,10 @@ This repo is used for opengles demo for Android platform. Each folder is a stand
 
 # How to Build ? 
 1. enter project 
-2. ndk-build (depend on Android NDK).
-3. ant debug (depend on Android SDK and apache ant) 
+2. `ndk-build` (depend on Android NDK).
+3. `ant debug` (depend on Android SDK and apache ant) 
 
-# What each demos do ?
+# What each demo do ?
 
 1. old-linux : no use any more, for linux platform only. Because on linux the opengl version is too low(3.0) , some modern opengl api not supported so I give up the linux platform. Turn to Android with OpenGL ES. 
 
