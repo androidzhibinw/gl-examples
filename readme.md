@@ -1,7 +1,7 @@
 
 # Start OpenGL ES 3 on  Android:
 
-This repo is used for opengles demo for Android platform. Each folder is a standalone Android project. Each project will demostrade a OpenGL ES program. 
+This repo is used for OpenGLES demos on  Android platform. Each folder is a standalone Android project. Each project will demostrade a OpenGL ES program. 
 
 
 # Environment set up 
