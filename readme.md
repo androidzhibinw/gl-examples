@@ -3,6 +3,7 @@
 
 This repo is used for OpenGLES demos on  Android platform. Each folder is a standalone Android project. Each project will demostrade a OpenGL ES program. 
 
+refered: https://learnopengl.com 
 
 # Environment set up 
 1. Android SDK (version >= 23  )
@@ -16,23 +17,18 @@ This repo is used for OpenGLES demos on  Android platform. Each folder is a stan
 
 # What each demo do ?
 
-1. old-linux : no use any more, for linux platform only. Because on linux the opengl version is too low(3.0) , some modern opengl api not supported so I give up the linux platform. Turn to Android with OpenGL ES. 
-
-2. mygles3: This is a simplest android opengl program, which only show a red screen. 
-
-3. triangles:  draw a simple triangle. 
-
-4. Rectangles:  draw a rectangle.
-
-5. Shader01:  draw color triangle.
-
-6. Shader02: using uniform variable in glsl and change color each frame, draw triangle.
-
-7. Shader03:　pass color variable from vertex shader to fragement shader. 
-
-8. Textures01: texture example, draw a picture with texture.
-
-9. Textures01: mix two textures.
+| Folder name     | Comment |
+| ------------- | ------------- |
+| old-linux|no use any more, for linux platform only. Because on linux the opengl version is too low(3.0) , some modern opengl api not supported so I give up the linux platform. Turn to Android with OpenGL ES|
+| mygles3  | This is a simplest android opengl program, which only show a red screen|
+|triangles| draw a simple triangle. |
+|Rectangles| draw a rectangle|
+|Shader01| draw color triangle with shader|
+|Shader02|using uniform variable in glsl and change color each frame, draw triangle|
+|Shader03|pass color variable from vertex shader to fragement shader|
+|Textures01|texture example, draw a picture with texture|
+|Textures02|mix two textures|
+|glm-example| using glm implement transform/rotation|
 
 
 
