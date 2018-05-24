@@ -1,4 +1,6 @@
 
+
+# Move to https://github.com/androidzhibinw/LearnGLES # 
 # Start OpenGL ES 3 on  Android:
 
 This repo is used for OpenGLES demos on  Android platform. Each folder is a standalone Android project. Each project will demostrade a OpenGL ES program. 
