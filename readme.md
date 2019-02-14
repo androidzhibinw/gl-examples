@@ -7,6 +7,7 @@
 
 ## 介绍 
 这个项目用来记录学习 OpenGLES 的一些点滴， Android 平台。
+主要参考  [https://learnopengl.com](https://learnopengl.com)
 
 使用 https://github.com/googlesamples/android-ndk/tree/master/native-activity 作为基础框架，这个基于Android 的 NativeActivity， 并使用native_app_glue 库（用来封装Activity 生命周期相关回调），这个工程本身基于 Android NDK 实现 OpenGLES 应用的框架。
 
@@ -55,6 +56,10 @@
 |[0013_gl_coordinate.cpp][cpp0013]|相机移动 （旋转）| <img src="https://github.com/androidzhibinw/LearnGLES/blob/master/screenshots/0013_camera.gif?raw=true" width="144" height="256"/>|
 |[0014_gl_light.cpp][cpp0014]| 光照 |  <img src="https://github.com/androidzhibinw/LearnGLES/blob/master/screenshots/0014_light.gif?raw=true" width="144" height="256"/>|
 |[0015_gl_diffuse.cpp][cpp0015]| 漫反射 |  <img src="https://github.com/androidzhibinw/LearnGLES/blob/master/screenshots/0015_diffuse.gif?raw=true" width="144" height="256"/>|
+|[0016_gl_specular.cpp][cpp0016]| 镜面反射 |  <img src="https://github.com/androidzhibinw/LearnGLES/blob/master/screenshots/0016_specular.gif?raw=true" width="144" height="256"/>|
+|[0017_gl_material.cpp][cpp0017]| 材质（光照） |  <img src="https://github.com/androidzhibinw/LearnGLES/blob/master/screenshots/0017_material.gif?raw=true" width="144" height="256"/>|
+|[0018_gl_light_maps.cpp][cpp0018]| 材质（光照/漫反射） |  <img src="https://github.com/androidzhibinw/LearnGLES/blob/master/screenshots/0018_diffusemap.gif?raw=true" width="144" height="256"/>|
+|[0019_gl_light_maps_specular.cpp][cpp0019]| 材质（光照/镜面反射） |  <img src="https://github.com/androidzhibinw/LearnGLES/blob/master/screenshots/0019_specularmap.gif?raw=true" width="144" height="256"/>|
 
 
 [cpp001]:https://github.com/androidzhibinw/LearnGLES/blob/master/app/src/main/cpp/001_gl_color_app.cpp
@@ -72,6 +77,12 @@
 [cpp0013]:https://github.com/androidzhibinw/LearnGLES/blob/master/app/src/main/cpp/0013_gl_camera.cpp
 [cpp0014]:https://github.com/androidzhibinw/LearnGLES/blob/master/app/src/main/cpp/0014_gl_light.cpp
 [cpp0015]:https://github.com/androidzhibinw/LearnGLES/blob/master/app/src/main/cpp/0015_gl_light_diffuse.cpp
+[cpp0016]:https://github.com/androidzhibinw/LearnGLES/blob/master/app/src/main/cpp/0016_gl_light_specular.cpp
+[cpp0017]:https://github.com/androidzhibinw/LearnGLES/blob/master/app/src/main/cpp/0017_gl_light_material.cpp
+[cpp0018]:https://github.com/androidzhibinw/LearnGLES/blob/master/app/src/main/cpp/0018_gl_light_maps.cpp
+[cpp0019]:https://github.com/androidzhibinw/LearnGLES/blob/master/app/src/main/cpp/0018_gl_light_maps_specular.cpp
+
+
 
 
 
